@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CEST_UI User Manual</title>
+  <meta name="description" content="User Manual for the CEST_UI Docker Image Installation and Application" />
+
+  <!-- Docsify theme -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css" />
+
+  <style>
+    :root {
+      --theme-color: #2c7be5;
+      --sidebar-width: 280px;
+      --base-font-size: 15px;
+      --cover-background-color: #1a1f36;
+    }
+
+    /* Video embeds */
+    .video-wrapper {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      margin: 1.5em 0;
+      border-radius: 8px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    }
+    .video-wrapper iframe {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      border: none;
+      border-radius: 8px;
+    }
+
+    /* Step callouts */
+    .tip, .warning, .info {
+      border-radius: 6px;
+      padding: 12px 16px;
+      margin: 1em 0;
+    }
+
+    /* Sidebar logo area */
+    .app-name-link img {
+      max-width: 160px;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">Loading...</div>
+
+  <script>
+    window.$docsify = {
+      name: 'CEST_UI Manual',
+      repo: '',                      // Optional: add your GitHub repo URL here
+      loadSidebar: true,
+      subMaxLevel: 2,
+      auto2top: true,
+      search: {
+        placeholder: 'Search manual...',
+        noData: 'No results found.',
+        depth: 3,
+      },
+      pagination: {
+        previousText: '← Previous',
+        nextText: 'Next →',
+        crossChapter: true,
+      },
+      copyCode: {
+        buttonText: 'Copy',
+        errorText: 'Error',
+        successText: 'Copied!'
+      },
+      plugins: [],
+    };
+  </script>
+
+  <!-- Docsify core -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+
+  <!-- Plugins -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2/dist/docsify-copy-code.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+</body>
+</html>
