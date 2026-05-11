@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,13 +12,101 @@
 
   <style>
     :root {
-      --theme-color: #2c7be5;
+      --theme-color: #e05a3a;
       --sidebar-width: 280px;
       --base-font-size: 15px;
-      --cover-background-color: #1a1f36;
     }
 
-    /* Video embeds */
+    /* ── Sidebar shell ───────────────────────────── */
+    .sidebar {
+      background: #ffffff;
+      border-right: 1px solid #efefef;
+      padding-top: 0 !important;
+    }
+
+    /* ── Logo + title row ────────────────────────── */
+    .app-name {
+      padding: 20px 16px 12px 16px !important;
+      border-bottom: 1px solid #f0f0f0;
+      margin-bottom: 8px;
+    }
+    .app-name-link {
+      display: flex !important;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none !important;
+    }
+    .app-name-link img {
+      width: 28px;
+      height: 28px;
+      border-radius: 5px;
+      object-fit: cover;
+      flex-shrink: 0;
+    }
+    .app-name-link span {
+      font-size: 14px;
+      font-weight: 700;
+      color: #1a1a1a;
+      letter-spacing: -0.01em;
+      line-height: 1.3;
+    }
+
+    /* ── Sidebar nav items ───────────────────────── */
+    .sidebar-nav ul {
+      padding: 0 8px !important;
+    }
+    .sidebar-nav > ul > li > a,
+    .sidebar-nav > ul > li > p {
+      font-size: 12px !important;
+      font-weight: 600 !important;
+      text-transform: uppercase !important;
+      letter-spacing: 0.06em !important;
+      color: #8a8a8a !important;
+      padding: 6px 10px !important;
+      border-radius: 6px;
+      display: block;
+    }
+    .sidebar-nav li a {
+      font-size: 13.5px;
+      color: #444 !important;
+      padding: 5px 10px;
+      border-radius: 6px;
+      display: block;
+      transition: background 0.15s ease, color 0.15s ease;
+      text-decoration: none !important;
+    }
+
+    /* Hover: light gray, like GitBook */
+    .sidebar-nav li a:hover {
+      background: #f3f3f3;
+      color: #1a1a1a !important;
+    }
+
+    /* Active / current page: soft salmon background + accent border */
+    .sidebar-nav li.active > a,
+    .sidebar-nav li > a.active {
+      background: #fef1ee !important;
+      color: #e05a3a !important;
+      font-weight: 600 !important;
+      border-left: 3px solid #e05a3a;
+      padding-left: 7px !important;
+    }
+
+    /* ── Search box ──────────────────────────────── */
+    .search input {
+      border-radius: 6px !important;
+      border: 1px solid #e0e0e0 !important;
+      font-size: 13px !important;
+      padding: 7px 12px 7px 32px !important;
+      background: #f7f7f7 !important;
+    }
+    .search input:focus {
+      border-color: #e05a3a !important;
+      background: #fff !important;
+      outline: none !important;
+    }
+
+    /* ── Video embeds ────────────────────────────── */
     .video-wrapper {
       position: relative;
       padding-bottom: 56.25%;
@@ -25,7 +114,7 @@
       overflow: hidden;
       margin: 1.5em 0;
       border-radius: 8px;
-      box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+      box-shadow: 0 4px 16px rgba(0,0,0,0.12);
     }
     .video-wrapper iframe {
       position: absolute;
@@ -34,18 +123,6 @@
       border: none;
       border-radius: 8px;
     }
-
-    /* Step callouts */
-    .tip, .warning, .info {
-      border-radius: 6px;
-      padding: 12px 16px;
-      margin: 1em 0;
-    }
-
-    /* Sidebar logo area */
-    .app-name-link img {
-      max-width: 160px;
-    }
   </style>
 </head>
 <body>
@@ -53,7 +130,7 @@
 
   <script>
     window.$docsify = {
-      name: 'CEST_UI Manual',
+      name: '<img src=".gitbook/assets/logo_quantimbLab_Square.jpg" /><span>CEST_UI Manual</span>',
       repo: '',                      // Optional: add your GitHub repo URL here
       loadSidebar: true,
       subMaxLevel: 2,
