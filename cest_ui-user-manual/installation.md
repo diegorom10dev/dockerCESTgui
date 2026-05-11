@@ -25,6 +25,6 @@ After the installation process is completed, your default web browser (Google Ch
 Verify that you are directed to the application's landing page, as shown below:
 
 <div class="video-wrapper">
-  <iframe src="https://youtu.be/FjkrSzq64II" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/FjkrSzq64II" allowfullscreen></iframe>
 </div>
 
