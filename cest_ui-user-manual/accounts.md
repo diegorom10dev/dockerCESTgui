@@ -6,19 +6,25 @@
 {% step %}
 Click the **Sign Up** hyperlink on the application's landing page.
 
-{% embed url="https://youtu.be/yJIFqEJLPBs" %}
+<div class="video-wrapper">
+  <iframe src="https://www.youtube.com/embed/yJIFqEJLPBs" allowfullscreen></iframe>
+</div>
 {% endstep %}
 
 {% step %}
 Fill in the personal details for the new user registration request by typing in each field of the registration form.
 
-{% embed url="https://youtu.be/_XgmqALHB2s" %}
+<div class="video-wrapper">
+  <iframe src="https://www.youtube.com/embed/_XgmqALHB2s" allowfullscreen></iframe>
+</div>
 {% endstep %}
 
 {% step %}
 Click the **Register** button below the form to submit the registration request to the admin.
 
-{% embed url="https://youtu.be/R8nz0aA-icw" %}
+<div class="video-wrapper">
+  <iframe src="https://www.youtube.com/embed/R8nz0aA-icw" allowfullscreen></iframe>
+</div>
 {% endstep %}
 {% endstepper %}
 
@@ -28,19 +34,25 @@ Click the **Register** button below the form to submit the registration request 
 {% step %}
 Click the **Forgot Password?** hyperlink on the application's landing page.
 
-{% embed url="https://youtu.be/WQvwf-Xotlk" %}
+<div class="video-wrapper">
+  <iframe src="https://www.youtube.com/embed/WQvwf-Xotlk" allowfullscreen></iframe>
+</div>
 {% endstep %}
 
 {% step %}
 Fill in the email address associated with the account whose password is being reset, then click **Reset my password**.
 
-{% embed url="https://youtu.be/UEnqj5fmurM" %}
+<div class="video-wrapper">
+  <iframe src="https://www.youtube.com/embed/UEnqj5fmurM" allowfullscreen></iframe>
+</div>
 {% endstep %}
 
 {% step %}
 Follow the instructions sent to the account's email address to complete the password reset.
 
-{% embed url="https://youtu.be/Y8YzE1Y2kNI" %}
+<div class="video-wrapper">
+  <iframe src="https://www.youtube.com/embed/Y8YzE1Y2kNI" allowfullscreen></iframe>
+</div>
 {% endstep %}
 {% endstepper %}
 
@@ -54,7 +66,9 @@ In your browser's address bar, type or paste the following address:
 http://127.0.0.1:8000/admin
 ```
 
-{% embed url="https://youtu.be/gvtnWLXa3bQ" %}
+<div class="video-wrapper">
+  <iframe src="https://www.youtube.com/embed/gvtnWLXa3bQ" allowfullscreen></iframe>
+</div>
 {% endstep %}
 
 {% step %}
@@ -65,19 +79,25 @@ Log in with the admin credentials below, then click **Log In**:
 > * **Username:** `quantimbadmin`
 > * **Password:** `cestgui.pwd01`
 
-{% embed url="https://youtu.be/Jcj0EF8Tilw" %}
+<div class="video-wrapper">
+  <iframe src="https://www.youtube.com/embed/Jcj0EF8Tilw" allowfullscreen></iframe>
+</div>
 {% endstep %}
 
 {% step %}
 Click the **User Registration Requests** blue hyperlink under the **USERS** tab in the admin dashboard.
 
-{% embed url="https://youtu.be/S_Qnh8hk8OU" %}
+<div class="video-wrapper">
+  <iframe src="https://www.youtube.com/embed/S_Qnh8hk8OU" allowfullscreen></iframe>
+</div>
 {% endstep %}
 
 {% step %}
 Select the desired user registration request to be approved or rejected, then select the appropriate action from the **Action** dropdown above the request list.
 
-{% embed url="https://youtu.be/gIx6HmWpGjM" %}
+<div class="video-wrapper">
+  <iframe src="https://www.youtube.com/embed/gIx6HmWpGjM" allowfullscreen></iframe>
+</div>
 {% endstep %}
 
 {% step %}
@@ -87,7 +107,9 @@ Click the **Go** button next to the Action dropdown. Log out of the admin interf
 You may return to the application's landing page by clicking **View Site** next to the Log Out button — note that this does **not** log out the admin account.
 {% endhint %}
 
-{% embed url="https://youtu.be/zq53YzbbYbs" %}
+<div class="video-wrapper">
+  <iframe src="https://www.youtube.com/embed/zq53YzbbYbs" allowfullscreen></iframe>
+</div>
 {% endstep %}
 
 {% step %}
@@ -97,6 +119,8 @@ To return to the application's landing page manually, change the browser URL bac
 http://127.0.0.1:8000/
 ```
 
-{% embed url="https://youtu.be/-ZzHlfSp54c" %}
+<div class="video-wrapper">
+  <iframe src="https://www.youtube.com/embed/-ZzHlfSp54c" allowfullscreen></iframe>
+</div>
 {% endstep %}
 {% endstepper %}
