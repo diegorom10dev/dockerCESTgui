@@ -106,6 +106,88 @@
       outline: none !important;
     }
 
+    /* ── Warning callout  (!> syntax) ───────────────
+       Matches GitBook's red warning block (Image 1)   */
+    .tip {
+      position: relative;
+      background: #fff5f5 !important;
+      border-left: 4px solid #e05a3a !important;
+      border-radius: 0 6px 6px 0;
+      padding: 12px 14px 12px 42px !important;
+      margin: 1.2em 0;
+      font-size: 14px;
+      line-height: 1.6;
+      color: #3d2b2b;
+    }
+    .tip::before {
+      content: "⚠";
+      position: absolute;
+      left: 13px;
+      top: 13px;
+      font-size: 15px;
+      color: #e05a3a;
+    }
+    .tip strong:first-child {
+      color: #c0392b;
+    }
+
+    /* ── Info / Note callout  (?> syntax) ────────────
+       Matches GitBook's yellow note block (Image 2)   */
+    .warn {
+      position: relative;
+      background: #fffbf0 !important;
+      border-left: 4px solid #f0a500 !important;
+      border-radius: 0 6px 6px 0;
+      padding: 12px 14px 12px 42px !important;
+      margin: 1.2em 0;
+      font-size: 14px;
+      line-height: 1.6;
+      color: #3d3520;
+    }
+    .warn::before {
+      content: "ℹ";
+      position: absolute;
+      left: 13px;
+      top: 12px;
+      font-size: 15px;
+      color: #f0a500;
+    }
+
+    /* ── Pagination (Prev / Next) ────────────────── */
+    .pagination-item {
+      padding: 14px 0 !important;
+    }
+    .pagination-item a {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13.5px;
+      font-weight: 500;
+      color: #555 !important;
+      text-decoration: none !important;
+      padding: 8px 14px;
+      border: 1px solid #e5e5e5;
+      border-radius: 7px;
+      transition: border-color 0.15s, color 0.15s, background 0.15s;
+    }
+    .pagination-item a:hover {
+      border-color: #e05a3a;
+      color: #e05a3a !important;
+      background: #fff7f5;
+    }
+    .pagination-item--previous a::before {
+      content: "←";
+      font-size: 15px;
+    }
+    .pagination-item--next a::after {
+      content: "→";
+      font-size: 15px;
+    }
+    .pagination-item-title {
+      font-size: 13px;
+      opacity: 0.75;
+    }
+
     /* ── Video embeds ────────────────────────────── */
     .video-wrapper {
       position: relative;
@@ -130,7 +212,7 @@
 
   <script>
     window.$docsify = {
-      name: '<img src=".gitbook/assets/logo_quantimbLab_Square.jpg" /><span>CEST_UI Manual</span>',
+      name: '<img src=".gitbook/assets/YOUR_LOGO_FILENAME.png" /><span>CEST_UI Manual</span>',
       repo: '',                      // Optional: add your GitHub repo URL here
       loadSidebar: true,
       subMaxLevel: 2,
