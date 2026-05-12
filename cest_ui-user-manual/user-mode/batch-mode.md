@@ -13,7 +13,7 @@
   <iframe src="https://www.youtube.com/embed/IB_S2kFeAus" allowfullscreen></iframe>
 </div>
 
-!> **Warning:** Batch mode requires strict adherence to naming conventions. Unlike single patient mode, you cannot manually map files during the process. Any files that do not match the [File naming convention table] will be automatically skipped, and those results will be marked as "missing modalities.  
+!> **Warning:** Batch mode requires strict adherence to naming conventions. Unlike single patient mode, you cannot manually map files during the process. Any files that do not match the <a href="#/cest_ui-user-manual/user-mode/login-dashboard?id=file-naming-convention" style="display:inline-flex; align-items:center; gap:6px; font-size:13.5px; font-weight:500; color:#555; text-decoration:none; padding:8px 14px; border:1px solid #e5e5e5; border-radius:7px;">File Naming Convention Table</a> will be automatically skipped, and those results will be marked as "missing modalities.  
 
 3. Select or deselect patients to be processed for a batch run. Toggle the checkbox next to the patient number, or use the **Select All Patients** and **Deselect All** buttons. By default, all patients are selected.
 
@@ -62,5 +62,5 @@
 
 <div style="display:flex; justify-content:space-between; margin-top: 48px; padding-top: 16px; border-top: 1px solid #efefef;">
   <a href="#/cest_ui-user-manual/user-mode/single-patient" style="display:inline-flex; align-items:center; gap:6px; font-size:13.5px; font-weight:500; color:#555; text-decoration:none; padding:8px 14px; border:1px solid #e5e5e5; border-radius:7px;">← Single Patient Mode</a>
-  <a href="#/cest_ui-user-manual/accounts" style="display:inline-flex; align-items:center; gap:6px; font-size:13.5px; font-weight:500; color:#555; text-decoration:none; padding:8px 14px; border:1px solid #e5e5e5; border-radius:7px;">Accounts</a>
+  <a href="#/cest_ui-user-manual/accounts" style="display:inline-flex; align-items:center; gap:6px; font-size:13.5px; font-weight:500; color:#555; text-decoration:none; padding:8px 14px; border:1px solid #e5e5e5; border-radius:7px;">Accounts →</a>
 </div>
