@@ -13,7 +13,7 @@
   <iframe src="https://www.youtube.com/embed/IB_S2kFeAus" allowfullscreen></iframe>
 </div>
 
-!> **Warning:** Batch mode requires strict adherence to naming conventions. Unlike single patient mode, you cannot manually map files during the process. Any files that do not match the <a href="#/cest_ui-user-manual/user-mode/login-dashboard?id=file-naming-convention" style="display:inline-flex; align-items:center; gap:6px; font-size:13.5px; font-weight:500; color:#555; text-decoration:none; padding:8px 14px; border:1px solid #e5e5e5; border-radius:7px;">File Naming Convention Table</a> will be automatically skipped, and those results will be marked as "missing modalities.  
+!> **Warning:** Batch mode requires strict adherence to naming conventions. Unlike single patient mode, you cannot manually map files during the process. Any files that do not match the <a href="#/cest_ui-user-manual/user-mode/login-dashboard?id=file-naming-convention" style="display: inline-block; vertical-align: middle; font-size: 13px; font-weight: 500; color: #444; text-decoration: none; padding: 4px 10px; border: 1px solid #ddd; border-radius: 6px; line-height: 1.2; margin: 0 2px; background: #fafafa;">File Naming Convention Table</a> will be automatically skipped, and those results will be marked as "missing modalities." 
 
 3. Select or deselect patients to be processed for a batch run. Toggle the checkbox next to the patient number, or use the **Select All Patients** and **Deselect All** buttons. By default, all patients are selected.
 
