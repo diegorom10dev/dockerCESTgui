@@ -42,6 +42,12 @@ Follow the instructions sent to the account's email address to complete the pass
 
 ## 4.3 User Request Approval (Admin)
 
+Click the "Admin Login" button in the site's landing page as shown below:
+
+<p align="center">
+  <img src=".gitbook/admin_login.jpg" title="Hover text">
+</p>
+
 In your browser's address bar, type or paste the following address:
 
 ```
