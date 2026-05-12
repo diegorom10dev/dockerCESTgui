@@ -1,7 +1,6 @@
 # Login Dashboard
 
-
-### Log in to the system
+### 1. Log in to the system
 
 Log in to the system by filling in the username and password fields in the login form, located on the right side of the landing page.
 
@@ -17,12 +16,12 @@ If accessing this mode for the first time, you may use the test credentials prel
 </div>
 
 
-### Optional: upload your own patient folders
+### 2. Optional: upload your own patient folders
 
 Upload your own patient folders containing the lesion files to be classified. This step is optional — you may also upload files later in either Single Patient or Batch Mode.
 
 
-**Warning**: The system heavily relies on naming conventions for each modality. If your files do not follow the expected naming conventions, they will not be processable in Batch Mode. They may still be uploaded manually in Single Patient Mode.
+!> **Warning**: The system heavily relies on naming conventions for each modality. If your files do not follow the expected naming conventions, they will not be processable in Batch Mode. They may still be uploaded manually in Single Patient Mode.
 
 
 #### File Naming Convention
@@ -43,7 +42,7 @@ Upload your own patient folders containing the lesion files to be classified. Th
 </div>
 
 
-### Optional: set a local storage directory
+### 3. Optional: set a local storage directory
 
 Set a local storage directory by clicking the **Select Local Storage Directory** button. This designates a folder in your file system where the application will save generated files (resampled files, cropped files, saliency heatmaps, and Excel files). If skipped, the application will prompt you to select a directory during your first inference.
 
@@ -52,7 +51,7 @@ Set a local storage directory by clicking the **Select Local Storage Directory**
 </div>
 
 
-### Optional: explore uploaded and generated files
+### 4. Optional: explore uploaded and generated files
 
 Explore your uploaded and generated files in the **Uploaded Files** table at the bottom of the screen.
 
@@ -61,7 +60,7 @@ Explore your uploaded and generated files in the **Uploaded Files** table at the
 </div>
 
 
-### Select your desired mode of operation
+### 5. Select your desired mode of operation
 
 Select your desired mode of operation by clicking **Single Patient Mode** or **Batch Mode** in the middle of the screen. The system will redirect you to the corresponding view.
 
@@ -70,7 +69,7 @@ Select your desired mode of operation by clicking **Single Patient Mode** or **B
 </div>
 
 
-### Log out
+### 6. Log out
 
 To log out, click the red **Logout** button located in the bottom-right corner of the screen.
 
@@ -78,4 +77,8 @@ To log out, click the red **Logout** button located in the bottom-right corner o
   <iframe src="https://www.youtube.com/embed/sCwZX4xIDp0" allowfullscreen></iframe>
 </div>
 
+<div style="display:flex; justify-content:space-between; margin-top: 48px; padding-top: 16px; border-top: 1px solid #efefef;">
+  <a href="#/cest_ui-user-manual/user-mode/README" style="display:inline-flex; align-items:center; gap:6px; font-size:13.5px; font-weight:500; color:#555; text-decoration:none; padding:8px 14px; border:1px solid #e5e5e5; border-radius:7px;">← User Mode Overview</a>
+  <a href="#/cest_ui-user-manual/user-mode/single-patient" style="display:inline-flex; align-items:center; gap:6px; font-size:13.5px; font-weight:500; color:#555; text-decoration:none; padding:8px 14px; border:1px solid #e5e5e5; border-radius:7px;">Single Patient Mode →</a>
+</div>
 
