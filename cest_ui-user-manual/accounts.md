@@ -98,3 +98,8 @@ http://127.0.0.1:8000/
   <iframe src="https://www.youtube.com/embed/-ZzHlfSp54c" allowfullscreen></iframe>
 </div>
 
+
+<div style="display:flex; justify-content:space-between; margin-top: 48px; padding-top: 16px; border-top: 1px solid #efefef;">
+  <a href="#/cest_ui-user-manual/user-mode/batch-mode" style="display:inline-flex; align-items:center; gap:6px; font-size:13.5px; font-weight:500; color:#555; text-decoration:none; padding:8px 14px; border:1px solid #e5e5e5; border-radius:7px;">← User - Batch Mode</a>
+</div>
+
