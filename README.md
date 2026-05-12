@@ -31,5 +31,5 @@ AI-Assisted MRI-Guided Platform for Automated Differentiation Between Radiothera
 CEST\_UI is an automated artificial intelligence (AI)-guided multi-modal MRI analysis platform for distinguishing SRS treatment outcomes in patients with brain metastasis. The platform integrates and adapts a 3D Swin Transformer model (Swin-RAFT) with a modern, scalable web-based Graphical User Interface (GUI), helping radiologists as a decision support tool to differentiate between TP and RN outcomes with high accuracy, even in complex or small lesions, while focusing on their user experience
 
 <div style="display:flex; justify-content:space-between; margin-top: 48px; padding-top: 16px; border-top: 1px solid #efefef;">
-  <a href="#/cest_ui-user-manual/installation" style="display:inline-flex; align-items:center; gap:6px; font-size:13.5px; font-weight:500; color:#555; text-decoration:none; padding:8px 14px; border:1px solid #e5e5e5; border-radius:7px;">Demo Mode Overview →</a>
+  <a href="#/cest_ui-user-manual/installation" style="display:inline-flex; align-items:center; gap:6px; font-size:13.5px; font-weight:500; color:#555; text-decoration:none; padding:8px 14px; border:1px solid #e5e5e5; border-radius:7px;">Installation →</a>
 </div>
