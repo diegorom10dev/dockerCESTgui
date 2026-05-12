@@ -29,6 +29,6 @@ Verify that you are directed to the application's landing page, as shown below:
 </div>
 
 <div style="display:flex; justify-content:space-between; margin-top: 48px; padding-top: 16px; border-top: 1px solid #efefef;">
-  <a href="dockerCESTgui/#/README" style="display:inline-flex; align-items:center; gap:6px; font-size:13.5px; font-weight:500; color:#555; text-decoration:none; padding:8px 14px; border:1px solid #e5e5e5; border-radius:7px;">← Home</a>
-  <a href="dockerCESTgui/#/cest_ui-user-manual/demo-mode/README" style="display:inline-flex; align-items:center; gap:6px; font-size:13.5px; font-weight:500; color:#555; text-decoration:none; padding:8px 14px; border:1px solid #e5e5e5; border-radius:7px;">Demo Mode Overview →</a>
+  <a href="#/README" style="display:inline-flex; align-items:center; gap:6px; font-size:13.5px; font-weight:500; color:#555; text-decoration:none; padding:8px 14px; border:1px solid #e5e5e5; border-radius:7px;">← Home</a>
+  <a href="#/cest_ui-user-manual/demo-mode/README" style="display:inline-flex; align-items:center; gap:6px; font-size:13.5px; font-weight:500; color:#555; text-decoration:none; padding:8px 14px; border:1px solid #e5e5e5; border-radius:7px;">Demo Mode Overview →</a>
 </div>
