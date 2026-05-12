@@ -49,14 +49,12 @@ Click the **Start Processing** button to generate the cropped files for each of 
   <iframe src="https://www.youtube.com/embed/kemf89OmSZQ" allowfullscreen></iframe>
 </div>
 
-{% step %}
 Use the second viewer to visualize the cropped files. It has the same mouse and keyboard controls as the main viewer. Toggle the **Sync** checkbox to view the same modality currently selected in the main viewer.
 
 <div class="video-wrapper">
   <iframe src="https://www.youtube.com/embed/y6eon4auMu0" allowfullscreen></iframe>
 </div>
 
-{% step %}
 Click the **Start Analyzing** button to make an inference for the selected lesion. Scroll down to see the classification outcome results once loading has finished.
 
 <div class="video-wrapper">
