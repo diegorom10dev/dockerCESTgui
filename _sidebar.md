@@ -1,5 +1,5 @@
 # Table of contents
-* [CEST\_UI User Manual](README.md)
+* [CEST UI User Manual](README.md)
   * [INSTALLATION](cest_ui-user-manual/installation.md)
   * [DEMO-MODE](cest_ui-user-manual/demo-mode/README.md)
     * [Single patient](cest_ui-user-manual/demo-mode/single-patient.md)
